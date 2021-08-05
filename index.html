@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <script src="script.js"></script>
+    <center>
+    <div id="d1">
+        <br>
+        <input type="text" id="wght">
+        <select name="" id="s1">
+            <option value="kg">kg</option>
+            <option value="lbs">lbs</option>
+        </select>
+        <br />
+        <br /><br />
+        <input type="text" id="hgt">
+        <select name="" id="s2">
+            <option value="m">meter</option>
+            <option value="in">inch</option>
+        </select><br />
+        <br />
+        <input type="button" id="b1" value="BMI" onclick="calc1()">
+        <div id="d2">&nbsp;</div><br /><br />
+        <input type="button" id="b2" value="Reset" onclick="reset()">
+        </div>
+    </center>
 </body>
 </html>
